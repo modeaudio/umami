@@ -2,7 +2,7 @@
   PNPM_VERSION = "12.3.4"
 
 [functions]
-included_files = ["node_modules/.geo/**"]
+included_files = ["node_modules/.geo/**", "db/supabase-ca.crt"]
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
